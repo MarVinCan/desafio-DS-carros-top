@@ -2,6 +2,7 @@ import "./styles.css";
 import Header from "../../components/Header";
 import CardCar from "../../components/CardCar";
 import CommentCard from "../../components/ CommentCard";
+import Footer from "../../components/Footer";
 
 export default function HomePage() {
   return (
@@ -15,8 +16,9 @@ export default function HomePage() {
         </div>
       </main>
       <div>
-          <CommentCard/>
-        </div>
+        <CommentCard />
+      </div>
+      <Footer/>
     </>
   );
 }

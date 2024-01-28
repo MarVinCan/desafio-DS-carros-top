@@ -5,7 +5,7 @@
     padding: 25px 20px;
     margin-top: 25px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 960px;
 }
 .dsct-comment p {
   color: var(--ct-color-font-tertiary);
