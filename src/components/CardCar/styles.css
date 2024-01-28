@@ -1,0 +1,33 @@
+.dsct-conteiner-home-top{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.dsct-conteiner-home-top img{
+    width: 100%;
+    max-width: 391px;
+}
+.dsct-conteiner-home-bottom{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+.dsct-conteiner-home-bottom h2{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--ct-color-font-secomdary);
+}
+.dsct-card-conteiner{
+    border: 1px solid var(--ct-color-border-primary);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 746px;
+}
+
+@media (min-width: 576px) {
+    .dsct-conteiner-home-bottom h2{
+        font-size: 20px;
+    }
+  }
