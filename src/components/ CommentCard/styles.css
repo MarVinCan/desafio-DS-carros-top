@@ -1,0 +1,12 @@
+.dsct-comment-card-container{
+    background-color: var(--ct-color-bg-tertiary);
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.dsct-comment-title{
+    color: var(--ct-color-font-secomdary);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
